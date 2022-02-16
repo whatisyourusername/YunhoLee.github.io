@@ -1,37 +1,131 @@
-## Welcome to GitHub Pages
+<html>
+<head>
+	<title>DailyWater_YunhoLee</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
 
-You can use the [editor on GitHub](https://github.com/whatisyourusername/YunhoLee.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+	* {
+	box-sizing: border-box;
+	}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	body {
+		background-image: url("back.jpg");
+	}
 
-### Markdown
+	header {
+		background-color: rgba(0, 0, 0, 0.5);
+		padding: 30px;
+		text-align: center;
+		font-size: 80px;
+		font-style: italic;
+		font-family: 'Times New Roman', Times, serif;
+		color: white;
+	}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	nav {
+		float: left;
+		width: 30%;
+		text-align: left;
+		font-size: 62px;
+		font-family: 'Times New Roman', Times, serif;
+		color: white;
+	}
 
-```markdown
-Syntax highlighted code block
+	nav ul {
+		background-color: rgba(0, 0, 0, 0.5);
+		list-style-type: none;
+		padding: 0;
+	}
 
-# Header 1
-## Header 2
-### Header 3
+	article {
+		padding: 60px;
+		float: left;
+		width: 70%;
+	}
 
-- Bulleted
-- List
+	section::after {
+	content: "";
+	display: table;
+	clear: both;
+	}
 
-1. Numbered
-2. List
+	footer {
+		background-color: rgba(0, 0, 0, 0.5);
+		padding: 10px;
+		text-align: center;
+		color: rgb(139, 214, 228);
+		font-size: 50px;
+	}
 
-**Bold** and _Italic_ and `Code` text
+	@media (max-width: 1200px) {
+		nav, article {
+		  width: 100%;
+		  height: auto;
+		}
+	}
 
-[Link](url) and ![Image](src)
-```
+	a:link {
+		color: grey;
+		background-color: transparent;
+		text-decoration: none;
+	}
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+	a:visited {
+		color: pink;
+		background-color: transparent;
+		text-decoration: none;
+	}
 
-### Jekyll Themes
+	a:hover {
+		color: red;
+		background-color: transparent;
+		text-decoration: underline;
+	}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/whatisyourusername/YunhoLee.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	a:active {
+		color: white;
+		background-color: transparent;
+		text-decoration: underline;
+	}
 
-### Support or Contact
+	</style>
+</head>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body>
+
+<header>
+	Daily Water
+</header>
+
+<section>
+	<nav>
+		<ul>
+			<li>Drink Healthy,</li>
+			<li>Drink Smart.</li>
+			<li style="text-align: center;">
+				<img src="bottle.png" type="image/png" width="300">
+			</li>
+			<li style="text-align: center;"><a href="water.html">4 Types of Water</a></li>
+		</ul>
+	</nav>
+	
+	<article>
+		<video width="1080" controls>
+			<source src="film.mp4" type="video/mp4" alt="commercial video">
+			<source src="movie.ogg" type="video/ogg">
+		</video>
+	</article>
+
+</section>
+
+<footer>
+	<a href="sorry.html">Click Here to Purchase Water</a>
+</footer>
+
+<footer>
+	<a href="teammates.html">Click Here to meet my Teammates</a>
+</footer>
+
+</body>
+</html>
